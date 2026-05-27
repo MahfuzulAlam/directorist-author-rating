@@ -1,0 +1,241 @@
+.directorist-author-rating-meta,
+.directorist-single-author-rating {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.directorist-author-rating-meta {
+	padding: 6px 10px;
+	border: 1px solid #f1dca7;
+	border-radius: 6px;
+	background: #fff8e8;
+	color: #5f4300;
+}
+
+.directorist-author-rating-meta > i,
+.directorist-author-rating-meta > svg,
+.directorist-single-author-rating > i,
+.directorist-single-author-rating > svg {
+	color: #f5a623;
+	flex: 0 0 auto;
+}
+
+.directorist-review-count,
+.directorist-single-author-rating {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.directorist-review-count {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.directorist-author-rating-value,
+.directorist-single-author-rating-value {
+	color: #141921;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.directorist-author-rating-count,
+.directorist-single-author-rating-count {
+	color: #747c89;
+}
+
+.directorist-single-author-rating {
+	width: fit-content;
+	margin-top: 8px;
+	padding: 5px 9px;
+	border: 1px solid #f1dca7;
+	border-radius: 6px;
+	background: #fff8e8;
+	color: #5f4300;
+}
+
+@media (max-width: 575px) {
+	.directorist-review-count,
+	.directorist-single-author-rating {
+		flex-wrap: wrap;
+	}
+}
+
+.directorist-author-rating-dashboard-reviews {
+	width: 100%;
+}
+
+.directorist-author-rating-dashboard-reviews__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 18px;
+}
+
+.directorist-author-rating-dashboard-reviews__title {
+	margin: 0;
+	color: #141921;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.directorist-author-rating-dashboard-reviews__summary {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.directorist-author-rating-dashboard-reviews__average {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 5px 10px;
+	border: 1px solid #f1dca7;
+	border-radius: 999px;
+	background: #fff8e8;
+	color: #5f4300;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.directorist-author-rating-dashboard-reviews__average > i,
+.directorist-author-rating-dashboard-reviews__average > svg {
+	color: #f5a623;
+}
+
+.directorist-author-rating-dashboard-reviews__average span {
+	color: #141921;
+	font-weight: 700;
+}
+
+.directorist-author-rating-dashboard-reviews__count {
+	padding: 4px 9px;
+	border-radius: 999px;
+	background: #f3f4f6;
+	color: #4d5761;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.directorist-author-rating-review-list {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.directorist-author-rating-review {
+	padding: 18px;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(20, 25, 33, 0.04);
+}
+
+.directorist-author-rating-review__header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 14px;
+	margin-bottom: 12px;
+}
+
+.directorist-author-rating-review__rating {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	min-width: 66px;
+	padding: 6px 10px;
+	border: 1px solid #f1dca7;
+	border-radius: 6px;
+	background: #fff8e8;
+	color: #141921;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.directorist-author-rating-review__rating > i,
+.directorist-author-rating-review__rating > svg {
+	color: #f5a623;
+}
+
+.directorist-author-rating-review__meta {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 6px 10px;
+	flex: 1;
+	color: #747c89;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.directorist-author-rating-review__author {
+	color: #141921;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.directorist-author-rating-review__status {
+	padding: 2px 7px;
+	border-radius: 999px;
+	background: #f3f4f6;
+	color: #4d5761;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.directorist-author-rating-review__content {
+	color: #4d5761;
+	font-size: 14px;
+	line-height: 1.65;
+}
+
+.directorist-author-rating-review__content p {
+	margin: 0 0 10px;
+}
+
+.directorist-author-rating-review__content p:last-child {
+	margin-bottom: 0;
+}
+
+.directorist-author-rating-review__listing {
+	display: inline-flex;
+	margin-top: 12px;
+	color: #3e62f5;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.directorist-author-rating-review__listing:hover {
+	color: #2448cf;
+	text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+	.directorist-author-rating-dashboard-reviews__header {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.directorist-author-rating-review {
+		padding: 14px;
+	}
+
+	.directorist-author-rating-review__header {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.directorist-author-rating-review__rating {
+		width: fit-content;
+	}
+}
